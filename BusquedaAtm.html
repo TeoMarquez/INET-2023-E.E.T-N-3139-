@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Aulas Taller moviles</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	
+  <div class="top-bar">
+	<a href="https://www.inet.edu.ar/">
+		<img src="Imagenes/Logo_Inet.jpeg" alt="Logo Inet" class="logo">
+	</a>
+    <div class="buttons">
+      <a href="inicio.html" class="button">Inicio</a>
+      <a href="#maiguas" class="button">Nosotros</a>
+    </div>
+  </div>
+  <h1 class="page-title">Busca tu Aula Talleres Movil</h1>
+  <div class="button-container">
+	<select name="select-provincia" id="select-provincia" class="select-element">
+      <option value="-1">Seleccione un lugar:</option>
+				<option value="-34.39822069578134, -58.63711453676092">Buenos Aires</option>
+				<option value="-28.4687346079061, -65.77688188615326">Catamarca</option>
+				<option value="-34.39822069578134, -58.63711453676092">Ciudad de Buenos Aires</option>
+				<option value="-27.473572836894924, -58.995534171032745">Chaco</option>
+				<option value="-43.24756569110657, -65.08390924853151">Chubut</option>
+				<option value="-27.50350730523396, -58.82975973783441">Corrientes</option>
+				<option value="-31.4204446815458, -64.19560671650945">Cordoba</option>
+				<option value="-31.740576805370615, -60.51153511328832">Entre Rios</option>
+				<option value="-26.184473218787584, -58.16163282893616">Formosa</option>
+				<option value="-24.181829937764974, -65.29938108030579">Jujuy</option>
+				<option value="-36.41857001472476, -64.30762640402656">La Pampa</option>
+				<option value="-29.377077763088792, -66.8732109485768">La Rioja</option>
+				<option value="-32.75300662383304, -68.8670309357208">Mendoza</option>
+				<option value="-27.402183766614687, -55.924948862488314">Misiones</option>
+				<option value="-38.82164865900379, -68.12701136844032">Neuquen</option>
+				<option value="-39.023243701031525, -67.55297083097913">Rio Negro</option>
+				<option value="-24.782208857045244, -65.42312427801994">Salta</option>
+				<option value="-31.47429261249247, -68.57405878791707">San Juan</option>
+				<option value="-33.16896861414355, -66.22830438329036">San Luis</option>
+				<option value="-51.59199107522856, -69.20830169276334">Santa Cruz</option>
+				<option value="-31.51708145406424, -60.64943227190029">Santa Fe</option>
+				<option value="-27.757303578583468, -64.29628610946327">Santiago del Estero</option>
+				<option value="-54.74820033657491, -68.37683107825391">Tierra del Fuego</option>
+				<option value="-26.748467600203615, -65.24576862650669">Tucuman</option>
+				
+    </select>
+	<select name="select-departamento" id="select-departamento" class="select-element">
+      <option value="-1">Seleccione un departamento:</option>
+      <!-- Las opciones se llenarán dinámicamente según la provincia seleccionada -->
+      </select>
+	  <select name="select-localidad" id="select-localidad" class="select-element">
+		<option value="-1">Seleccione una localidad:</option>
+      <!-- Las opciones se llenarán dinámicamente según el departamento seleccionado -->
+      </select>
+  </div>
+  <div class="container-flex">
+		<div class="container-flex-options">	
+		</div>
+		<div class="container-flex-map">
+			  <div id="map"></div>
+			  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+		    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+		    crossorigin=""></script>
+			  <script src="Consultas.js"></script>
+			  <script src="Marks.js"></script>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="social-media" id="maiguas">
+		  <a href="tecnica3139@gmail.com">Gmail</a>
+		  <a href="https://www.instagram.com/tecnica3139/?hl=es">Instagram</a>
+		  <a href="https://www.facebook.com/tecnica3139salta/">Facebook</a>
+		</div>
+		<div class="credits">
+		  <p>© 2023. Todos los derechos reservados.</p>
+		</div>
+	  </div>
+
+</body>
+</html>
+
+
+  
