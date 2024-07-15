@@ -19,6 +19,8 @@ Acceso a la Web:
 
 - Accede a la web localmente utilizando la URL establecida por XAMPP (por ejemplo, http://localhost/inet-2023).
 
+- En el ConexionBD.php cambiar por las credenciales o variables de entorno que corresponda
+
 ## 🚀 Funcionalidades
 
 - Consulta y actualización de información.
