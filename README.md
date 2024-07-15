@@ -9,15 +9,15 @@ Para ejecutar y utilizar la página web localmente:
 
 ### Configuración del Entorno:
 
---- Utiliza XAMPP con Apache y PHPMyAdmin para configurar el entorno de desarrollo local.
+- Utiliza XAMPP con Apache y PHPMyAdmin para configurar el entorno de desarrollo local.
 Asegúrate de que el servidor Apache esté activo y configurado correctamente en XAMPP.
 Base de Datos:
 
---- Utiliza PHPMyAdmin para gestionar la base de datos necesaria para la web.
+- Utiliza PHPMyAdmin para gestionar la base de datos necesaria para la web.
 Configura las URL y la conexión a la base de datos según la configuración local en XAMPP.
 Acceso a la Web:
 
---- Accede a la web localmente utilizando la URL establecida por XAMPP (por ejemplo, http://localhost/inet-2023).
+- Accede a la web localmente utilizando la URL establecida por XAMPP (por ejemplo, http://localhost/inet-2023).
 
 ## 🚀 Funcionalidades
 
